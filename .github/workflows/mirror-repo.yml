@@ -6,11 +6,11 @@ on:
       GITLAB_URL:
         required: true
         type: string
-   secrets:
-     GITLAB_USER:
-       required: true
-     GITLAB_PASSWORD:
-       required: true
+    secrets:
+      GITLAB_USER:
+        required: true
+      GITLAB_PASSWORD:
+        required: true
 
 jobs:
   mirror:
